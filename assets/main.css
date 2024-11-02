@@ -134,7 +134,7 @@ html {
 body {
   animation: transitionIn 3s;
   background-color: var(--background-color);
-  font-family: var(--font-family);
+  font-family: var(--font-family), sans-serif;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -542,7 +542,7 @@ main .content {
 }
 
 .card-info .text h1 {
-  font-family: var(--font-family);
+  font-family: var(--font-family), sans-serif;
   font-size: 48px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -604,11 +604,15 @@ main .content {
   }
 
   .team .info {
-    padding: 2rem 1rem 2rem 3rem;
+    padding: 2rem;
   }
 
   .team .info .head-list {
     padding-right: 2rem;
+  }
+
+  .team .info .personal-info {
+    margin: 1rem 2rem 0;
   }
 
   .team .info .personal-info .about {
@@ -637,6 +641,7 @@ main .content {
 
   .team .info .personal-info {
     text-align: center;
+    margin: 1rem 1rem 0;
   }
 
   .team .info .personal-info .about {
@@ -693,7 +698,6 @@ main .content {
 
 .team .info .personal-info {
   position: relative;
-  margin: 1rem 2rem 0;
 }
 
 .team .info .personal-info > *:not(.selected) {
@@ -708,7 +712,7 @@ main .content {
 }
 
 .team .info .personal-info .about .name {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   line-height: 1.75rem;
   margin-bottom: .25rem;
 }
